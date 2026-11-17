@@ -1,0 +1,20 @@
+# .gitattributes —— 保证跨平台换行正确
+* text=auto
+
+# Windows 批处理必须是 CRLF
+*.bat text eol=crlf
+
+# shell 脚本必须是 LF，否则 Linux 上报 "bad interpreter"
+*.sh text eol=lf
+
+# 固件源码建议 LF
+*.ino text eol=lf
+*.h   text eol=lf
+*.cpp text eol=lf
+
+# 二进制/编译产物不要动
+*.hex binary
+*.elf binary
+*.eep binary
+*.exe binary
+*.zip binary

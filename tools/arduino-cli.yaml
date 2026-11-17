@@ -1,0 +1,10 @@
+board_manager:
+    additional_urls: []
+directories:
+    data: D:\Coding\Projects\Claude_Projects\embbeded_Ardunio\tools\data
+    downloads: D:\Coding\Projects\Claude_Projects\embbeded_Ardunio\tools\downloads
+    user: D:\Coding\Projects\Claude_Projects\embbeded_Ardunio\tools\user
+library:
+    enable_unsafe_install: true
+build_cache:
+    path: D:\Coding\Projects\Claude_Projects\embbeded_Ardunio\tools\cache

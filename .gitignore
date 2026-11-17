@@ -1,0 +1,11 @@
+tools/data/
+tools/downloads/
+tools/cache/
+tools/user/libraries/Servo/
+tools/arduino-cli.zip
+build/tmp/
+.farm-env/
+out/
+*.pyc
+__pycache__/
+tools/user/libraries/Adafruit-Motor-Shield-library-master/
